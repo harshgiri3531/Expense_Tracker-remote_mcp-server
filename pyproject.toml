@@ -1,0 +1,20 @@
+[project]
+name = "test-remote-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Harsh Giri", email = "harsh.giri.cseai.2023@miet.ac.in" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastmcp>=4.0.11",
+]
+
+[project.scripts]
+test-remote-server = "test_remote_server:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
