@@ -2,7 +2,7 @@
 
 A remote [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server built with [FastMCP](https://gofastmcp.com) that lets an AI assistant such as Claude record and analyse personal expenses. Data is stored in SQLite and accessed asynchronously through `aiosqlite`.
 
-**Live server:** `[https://<your-app-name>.fastmcp.app/mcp](https://possible-jade-tiglon.fastmcp.app/mcp)`
+**Live server:** `https://possible-jade-tiglon.fastmcp.app/mcp`
 
 ## Features
 
@@ -62,7 +62,7 @@ test-remote-server/
 ### Installation
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/harshgiri3531/Expense_Tracker-remote_mcp-server>
 cd test-remote-server
 uv sync
 ```
